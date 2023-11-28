@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivinhe o Número</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="gamepage.js"></script>
+</head>
+<body>
+
+<center>
+
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+
+        <h1>Adivinhe o Número
+            <sup>
+                <img id="logo" src="q.gif">
+                </sup>
+        </h1>
+  
+        <p>Selecionamos um número entre 1 e 10. 
+        Tente adivinhá-lo.</p>
+          <!--3  -->
+        <div>
+            <label for="guessField">Insira sua resposta: </label>
+            <br>
+            <input type = "text" id = "guessField" class = "guessField">
+            </div>
+        </br>
+            <Button type = "submit" onclick="submit()"> Enviar 
+                   </Button>
+                   <Button onclick="playAgain()"> Jogar Novamente
+                </Button>
+        </div>
+	</div>
+</center>
+
+</body>
+</html>

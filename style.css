@@ -1,0 +1,25 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url("background.jpg");
+background-size: cover;
+background-position: center;
+}
+#logo{
+    width: 40px ;
+    opacity:40%
+}
+
+
+.login_div
+{
+    margin:10%;
+	background: rgba(255,255,255,0.95);
+    float: none;border-radius: 15px;
+    padding: 20px;  
+}
